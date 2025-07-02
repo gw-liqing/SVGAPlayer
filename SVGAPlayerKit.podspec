@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
     ss.dependency 'SSZipArchive', '>= 1.8.1'
     ss.library = "z"
     ss.framework = "AVFoundation"
-    ss.dependency 'SVGAPlayer/ProtoFiles'
+    ss.dependency 'SVGAPlayerKit/ProtoFiles'
   end
   s.subspec 'ProtoFiles' do |ss|
     ss.source_files  = "Source/pbobjc/*.{h,m}"
