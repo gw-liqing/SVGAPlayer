@@ -1,6 +1,6 @@
 
 Pod::Spec.new do |s|
-  s.name         = "SVGAPlayer"
+  s.name         = "SVGAPlayerKit"
   s.version      = "3.0.0"
   s.summary      = "SVGAPlayer 是一个高性能的动画播放器"
   s.description  = <<-DESC
