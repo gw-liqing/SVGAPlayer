@@ -27,6 +27,7 @@ Pod::Spec.new do |s|
     ss.requires_arc = false
     ss.dependency 'Protobuf', '~> 3.4'
     ss.pod_target_xcconfig = {
+      'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES',
       'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1',
     }
   end  
