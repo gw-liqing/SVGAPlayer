@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.license      = "Apache 2.0"
   s.author       = { "MAX" => "492791951@qq.com" }
   s.platform     = :ios, "13.0"
+  s.swift_versions = '5.0'
   s.source       = { :git => "https://github.com/lyx-UltraMan/SVGAPlayerKit.git", :tag => s.version }
   s.subspec 'Core' do |ss|
     ss.source_files  = "Source/*.{h,m}"
